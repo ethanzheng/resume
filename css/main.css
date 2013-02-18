@@ -108,6 +108,12 @@ section{
 }
 
 @media print{
+    body{
+        background: transparent;
+    }
+    .container{
+        border: solid 1px #343434;
+    }
     h1{
         padding-left: 30px;
         padding-bottom: 30px;

@@ -106,3 +106,13 @@ section{
     background: #b3d4fc;
     text-shadow: none;
 }
+
+@media print{
+    h1{
+        padding-left: 30px;
+        padding-bottom: 30px;
+        background-color: transparent;
+        color: inherit;
+        font-size: 1.5em;
+    }
+}

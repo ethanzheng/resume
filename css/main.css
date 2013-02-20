@@ -112,7 +112,8 @@ section{
         background: transparent;
     }
     .container{
-        border: solid 1px #343434;
+        border: none;
+        box-shadow: none;
     }
     h1{
         padding-left: 30px;
@@ -120,5 +121,6 @@ section{
         background-color: transparent;
         color: inherit;
         font-size: 1.5em;
+        text-align: right;
     }
 }
